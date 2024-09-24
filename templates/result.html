@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Result</title>
+</head>
+<body>
+    <h1>Top 10 Similar Images:</h1>
+    <div>
+        {% for filename in results %}
+            <div style="display: inline-block; margin: 10px;">
+                <img src="{{ url_for('image_file', filename=filename) }}" alt="Result Image" style="width: 150px; height: auto;">
+                <p>{{ filename }}</p>
+            </div>
+        {% endfor %}
+    </div>
+    <br>
+    <a href="/">Upload Another Image</a>
+</body>
+</html>
