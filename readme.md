@@ -53,7 +53,7 @@ To search for similar images:
 If your project requires additional configuration, for instance, to change the image dataset or model:
 
 ```bash
-# Example configuration (.env)
+# Example configuration 
 DATASET_PATH=images/ all image data here
 
 ```
