@@ -38,7 +38,7 @@ pip install -r requirements.txt
 After installation, you can run the application locally to test image-to-image search functionality.
 
 ```bash
-# Start the application (e.g., Flask or FastAPI)
+# Start the application (e.g., Flask )
 python main.py
 
 ```
